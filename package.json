@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "workspaces": ["sdk", "apps/web-ui", "backend"],
+  "scripts": {
+    "build": "npm run -w quantumvault-sdk build && npm run -w quantumvault-web-ui build"
+  }
+}
