@@ -3,7 +3,7 @@
 **Quantum-safe social wallet recovery** — lattice KEM, M-of-N threshold MPC social recovery, and Cellframe conditional transactions.
 
 ## Summary
-QuantumVault is an experimental hackathon prototype demonstrating a protocol-native approach to wallet resilience. It combines lattice-based key encapsulation (KEM) for post-quantum confidentiality, threshold multiparty computation (M-of-N) for social recovery, and Cellframe on-chain conditional transactions to automate recovery triggers.
+QuantumVault is a quantum-safe wallet recovery prototype. It lets users encapsulate secrets using lattice-based KEM, split them among trusted contacts via threshold MPC, and automate recovery using Cellframe smart contracts. Designed for resilience, modularity, and post-quantum security — all wrapped in a frictionless demo UI.
 
 This repository was created with assistance from Copilot and developed as an experimental project for the Taikai Quantum Safe Hackathon.
 
