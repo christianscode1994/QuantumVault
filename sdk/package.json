@@ -1,18 +1,29 @@
 {
-  "name":"quantumvault-sdk",
-  "version":"0.1.0",
-  "type":"module",
-  "main":"dist/index.cjs.js",
-  "module":"dist/index.esm.js",
-  "types":"dist/index.d.ts",
-  "exports":{".":{"import":"./dist/index.esm.js","require":"./dist/index.cjs.js","types":"./dist/index.d.ts"}},
-  "scripts":{"build":"tsc -p tsconfig.json && rollup -c rollup.config.js"},
-  "dependencies":{"secrets.js-grempe":"^1.1.0"},
-  "devDependencies":{
-    "typescript":"^5.1.6",
-    "rollup":"^3.29.0",
-    "@rollup/plugin-commonjs":"^24.0.0",
-    "@rollup/plugin-node-resolve":"^15.0.0",
-    "@rollup/plugin-typescript":"^11.1.0"
+  "name": "quantumvault-sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "secrets.js-grempe": "^1.1.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "rollup": "^3.29.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.1.0"
   }
 }
